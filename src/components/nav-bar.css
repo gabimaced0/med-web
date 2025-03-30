@@ -1,0 +1,19 @@
+.inputSearch{
+    background-color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-image: url(/src/assets/img/iconeBusca.svg);
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 50px;
+    background-position-y: 50%;
+    background-position-x: 15px;
+    border-radius: 8px;
+    background-size: 19px;
+    font-size: 16px;
+    width: 35%;
+    color: black;
+}
