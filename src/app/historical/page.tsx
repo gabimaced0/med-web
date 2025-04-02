@@ -1,6 +1,6 @@
 import NavBar from "@/components/nav-bar";
 
-export default function CategoriesPage() {
+export default function HistoricalPage() {
     return (
         <>
             <NavBar active="historico" />
