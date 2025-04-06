@@ -1,22 +1,18 @@
 import NavBar from "@/components/nav-bar";
 
 
-export default function AppointmentPage() {
-  return (
-    <>
-      <NavBar active="agendamento" />
 
-      <main className="flex justify-center">
-        <div className="bg-sky-900 p6 m-6 rounded min-w-1/3">
-          <h2>Agendamentos</h2>
-          
+export default function PageDashboard() {
+    return (
+        <>
+            <NavBar active="dashboard" />
 
-        </div>
-
-      </main>
-    
-    </>
-    
-  );
+            <main className="flex justify-center">
+                <div className="bg-slate-900 p-6 m-6 rounded min-w-1/3">
+                    <h2>Dashboard</h2>
+                </div>
+            </main>
+        </>
+    )
 }
 
